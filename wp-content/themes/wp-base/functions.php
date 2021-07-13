@@ -4,7 +4,7 @@
  */
 function base_scripts() {
 
-    wp_enqueue_style( 'styles', get_template_directory_uri() . '/css/main/core.css');
+    wp_enqueue_style( 'styles', get_template_directory_uri() . '/css/styles.css');
 
 }
 add_action( 'wp_enqueue_scripts', 'base_scripts' );
